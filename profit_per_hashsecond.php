@@ -23,6 +23,10 @@ function profit($coin, $format="txt"){
       $stats = "http://moneroblocks.info/api/get_stats/";
       $rewdiv = 1E12;
       break;
+    case "DERO":
+      $stats = "http://pool.dero.live:8117/live_stats";
+      $rewdiv = 1E12;
+      break;
     default:
       echo "coin not found";
       exit(1);
@@ -34,6 +38,7 @@ function profit($coin, $format="txt"){
   switch(strtoupper($coin)){
     case "ITNS":
     case "XUN":
+    case "DERO":
       $diff = $d->network->difficulty;
       $reward = $d->network->reward;
       $symbol = $d->config->symbol;
@@ -76,7 +81,8 @@ function profit($coin, $format="txt"){
 
 if (sizeOf($argv)<=1){
 	echo "Usage:".PHP_EOL;
-	echo "supported coins: ITNS,XMR,BCN,XUN".PHP_EOL;
+	echo "supported coins: ITNS,XMR,BCN,XUN,DERO".PHP_EOL;
+	echo "example (notice no spaces between coin names)".PHP_EOL;
 	echo "\t".ME." ITNS,XMR,BCN".PHP_EOL;
 	echo "\t".ME." ITNS".PHP_EOL;
 	exit;
