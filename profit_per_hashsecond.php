@@ -27,6 +27,13 @@ function profit($coin, $format="txt"){
       $stats = "http://pool.dero.live:8117/live_stats";
       $rewdiv = 1E12;
       break;
+    case "ETN":
+      $stats = "https://uspool.electroneum.com/api/live_stats";
+      $rewdiv = 1E2;
+      break;
+      
+      
+      
     default:
       echo "coin not found";
       exit(1);
@@ -39,6 +46,7 @@ function profit($coin, $format="txt"){
     case "ITNS":
     case "XUN":
     case "DERO":
+    case "ETN":
       $diff = $d->network->difficulty;
       $reward = $d->network->reward;
       $symbol = $d->config->symbol;
