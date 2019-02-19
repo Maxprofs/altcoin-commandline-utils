@@ -1,0 +1,143 @@
+Skip to content
+Your account has been flagged.
+Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed.
+btc php terminal
+Repositories0
+Code352K
+Commits1
+Issues85
+Marketplace0
+Topics0
+Wikis7
+Users0
+Language
+
+Sort
+
+Showing 346,932 available code results 
+@pulketo
+pulketo/altcoin-commandline-utils – start-new-terminal.sh
+Showing the top six matches
+Last indexed on Jul 12, 2018
+Shell
+#xterm -title 'Mining Profit @ 1KH/s' -geometry 80x10+0+0 -e 'watch -n60 ~/apis/profit.php ITNS,XUN,BCN'  &
+gnome-terminal --title 'Mining Profit @ 1KH/s' --hide-menubar --geometry=80x10+0+0 -x bash -c 'watch -n60 php profit.php ITNS,XUN,BCN,XMR'
+#xterm -title 'Stocks.Exchange Buy/Sell' -geometry 80x20+200+0 -e 'watch -n60 ~/apis/Stocks.Exchange.getPrice.php ITNS_BTC,XUN_BTC,BCN_BTC' &
+gnome-terminal --title 'Stocks.Exchange Buy/Sell' --hide-menubar --geometry=80x20+0+220 -x bash -c 'watch -n60 php Stocks.Exchange.getPrice.php ITNS_BTC,XUN_BTC,BCN_BTC'
+@RudyJ
+RudyJ/terminal – index.php
+Showing the top match
+Last indexed on Jun 29, 2018
+PHP
+        <script type="text/javascript" src="js/jquery.mousewheel-min.js"></script>
+        <script src="js/jquery.terminal-0.8.8.js" type="text/javascript"></script>
+        <link href="css/jquery.terminal.css" rel="stylesheet"/>
+        <script type="text/javascript">
+@RudyJ
+RudyJ/terminal – index2.php
+Showing the top match
+Last indexed on Jun 29, 2018
+PHP
+        <script type="text/javascript" src="js/jquery.mousewheel-min.js"></script>
+        <script src="js/jquery.terminal-0.8.8.js" type="text/javascript"></script>
+        <link href="css/jquery.terminal.css" rel="stylesheet"/>
+        <script type="text/javascript">
+@hortinstein
+hortinstein/nodemine – index.js
+Showing the top seven matches
+Last indexed on Jun 27, 2018
+JavaScript
+var request = require('request');
+var terminal = require('color-terminal');
+
+
+var btcGuild={};
+var blockchainData = {};
+	console.log('earning: '+rateData.coins_per_day+' BTC/day');
+	console.log('earned: '+btcGuild.total+' BTC');
+	//terminal.colorize('%3');
+@jacquelinegarrahan
+jacquelinegarrahan/dark_web_authorship – 2013.07.22_0550pm == Confused about VirWoX_ have you gone through the process_ == thread_188772 == by hopeful7.html
+Showing the top two matches
+Last indexed on Sep 12, 2018
+HTML
+		<link rel="canonical" href="http://dkn255hz262ypmii.onion/index.php?topic=188772.0" />
+		<title>Print Page - Confused about VirWoX: have you gone through the process?</title>
+				Sorry, as I know there is discussion on this and alternate methods to get bitcoin, but without bitinstant, I am in a bit of a panic.<br /><br />I am exploring the VirWoX page, and I know I have to get Linden dollars first, etc. What I don&#039;t understand is they said it will be sent to my avatar?&nbsp; And this part is not explained on the wiki page.&nbsp; I don&#039;t understand this:<br /><br /><br />Terminals<br /><br />We operate a network of terminals in the Second Life virtual world. The Terminal Locations page contains an up-to-date list of them. You need them for two purposes: validation of your account and depositing Linden dollars (SLL) into your VirWoX account.<br />Validation<br /><br />When you validate your account, you create a permanent link between your SL avatar and your VirWoX account. This is necessary for an effective and secure transfer of Linden dollars between your Second Life account and your VirWoX account. The process is fairly simple: After you have entered your SL first and last name on the VirWoX registration form, and after you have logged in to VirWoX for the first time using the temporary password sent to you by email, log in to the Second Life world, go to a VirWoX Terminal and simply touch it. If the terminal is a genuine VirWoX terminal, it will pop up a dialog telling you the VirWoX username you have chosen in VirWoX for this avatar. Once you confirm this is indeed your username, the link is made, and you are all set.<br /><br />Important: If the terminal is not able to tell the correct username, it is probably not a real VirWoX terminal and you should not proceed!<br />How do you find a terminal?<br /><br />On the Terminal Locations page, we maintain a list of currently available VirWoX terminals.<br />How can you tell it is a real VirWoX Terminal?<br /><br />Have you ever wondered, why in the real world you have to prove your identity to an ATM (using your PIN), but the ATM never proves to you that it&#039;s a real ATM? In the Second Life world, this problem is even bigger because it is easy to build something that looks like a VirWoX terminal. Consequently, our terminals prove to you that they are real VirWoX terminals by greeting you with your VirWoX username plus your personal, secret TIN (Terminal Identification Number), that you can choose freely (and change it as often as you like) on the Settings page. Therefore, before you select &quot;Pay&quot; to pay something that looks like a VirWoX terminal, always touch it and check your username and TIN!<br /><br /><br /><br /><br />When I click on the Terminal link a bunch of weird names pop up, so I just don&#039;t get it.&nbsp; Can anyone explain this part of the process?&nbsp; &nbsp;<br /><br />OR<br /><br />Is there a better/easier way for me to get some bitcoins as quickly as possible?&nbsp; ???<br /><br />Help!&nbsp; :)
+@KenDB3
+KenDB3/SyncBTC – sysop.txt
+Showing the top three matches
+Last indexed on Jul 4, 2018
+Text
+SyncBTC by KenDB3
+bbs.kd3.us
+
+  I) About SyncBTC
+ II) External Program Configuration
+     A) Files
+     C) External Door Config for bitcoin.js
+III) References and Links
+
+--------------------
+
+I) About SyncBTC
+
+A Bitcoin Exchange Rate external program (door) written in javascript for 
+@camander321
+camander321/junior-dev-rpg – game.js
+Showing the top four matches
+Last indexed on Jul 13, 2018
+JavaScript
+    this.terminal.print("Balance: " + this.player.money + " BTC");
+  }
+  showItems() {
+    var term = this.terminal;
+    this.terminal.print("You received " + this.project.reward + " XP");
+    this.terminal.print("You received " + this.project.moneyReward + " BTC");
+@btccom
+btccom/btcpool-go-modules – README.md
+Showing the top five matches
+Last indexed on Jul 23, 2018
+Markdown
+        "btc": "http://127.0.0.1:8000/btc-userlist.php",
+        "bcc": "http://127.0.0.1:8000/bcc-userlist.php"
+    },
+    "IntervalSeconds": 10,
+以`btc`的子账户名/puid列表接口为例，首次访问的实际URL为：
+```
+http://127.0.0.1:8000/btc-userlist.php?last_id=0
+```
+接口返回完整的用户/puid列表，如：
+@MishaPetrov
+MishaPetrov/junior-dev-rpg – game.js
+Showing the top four matches
+Last indexed on Jul 13, 2018
+JavaScript
+    this.terminal.print("Balance: " + this.player.money + " BTC");
+  }
+  showItems() {
+    var term = this.terminal;
+    this.terminal.print("You received " + this.project.reward + " XP");
+    this.terminal.print("You received " + this.project.moneyReward + " BTC");
+@jacquelinegarrahan
+jacquelinegarrahan/dark_web_authorship – 2012.10.26_1221am == First time buying bitcoins, and I am short about .4 btc. == thread_59111 == by Terminal Viscosity.html
+Showing the top match
+Last indexed on Sep 12, 2018
+HTML
+		<link rel="canonical" href="http://dkn255hz262ypmii.onion/index.php?topic=59111.0" />
+		<title>Print Page - First time buying bitcoins, and I am short about .4 btc.</title>
+		<style type="text/css">
+			body, a
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
